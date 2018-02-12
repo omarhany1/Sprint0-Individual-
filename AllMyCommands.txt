@@ -1,0 +1,33 @@
+> cd /Users/omarlabib/Desktop/Semester6/SE
+
+>git init
+
+>git clone https://github.com/omarhany1/Sprint0-Individual-.git
+
+>cd /Users/omarlabib/Desktop/Semester6/SE/Sprint0-Individual-
+
+>git add -A
+
+>rm "3.1 Git Branching - Branches in a Nutshell.docx"
+
+>git checkout "3.1 Git Branching - Branches in a Nutshell.docx"
+
+>git commit -m "Added chapters(1.1, 3.1 & 5.1) from the Pro Git book"
+
+>git push
+
+>git branch ReadMe
+
+>git checkout ReadMe
+
+>git add README.md
+
+>git commit -m "Added README file"
+
+>git checkout master
+
+>git merge ReadMe
+
+>git push 
+
+>git branch -D ReadMe
